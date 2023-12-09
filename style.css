@@ -1,0 +1,383 @@
+body * {
+  text-decoration: none;
+  margin: 0;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1130px;
+  width: 100%;
+}
+
+.photoshoot__title-text {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 500;
+  color: #37373f;
+}
+
+.photoshoot__paragrah {
+  color: #37373f;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: normal;
+  margin-top: 18px;
+  line-height: 146.28%;
+  
+}
+
+.photoshoot__recomended {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.photoshoot__icon-text01 {
+  color: #37373f;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.photoshoot__icon-text02 {
+  color: #37373f;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+.photoshoot__grade-color {
+  font-weight: bold;
+}
+
+.photoshoot__line-1 {
+  content: "";
+  display: flex;
+  width: 569px;
+  height: 1px;
+  background-color: #c7c7c7;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.photoshoot__line-2 {
+  content: "";
+  display: flex;
+  width: 569px;
+  height: 1px;
+  background-color: #c7c7c7;
+  margin-top: 30px;
+}
+
+.photoshoot__grade {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+
+.photoshoot__grade-2 {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.photoshoot__left {
+  margin-left: 20px;
+}
+
+.photoshoot__grade-img {
+  margin-bottom: 4px;
+}
+
+.photoshoot__body {
+  display: flex;
+}
+
+/* ============================================================================================================ */
+
+.photo-package__title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.photo-package__text-1 {
+  color: #37373f;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.photo-package__images-1 {
+  display: flex;
+  gap: 10px;
+}
+
+.photo-package__images-2 {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.photo-package__buttons {
+  text-align: center;
+}
+
+.photo-package__button-01 {
+  color: #5286ec;
+  font-family: Montserrat;
+  font-size: 17px;
+  margin-top: 45px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 5px;
+}
+
+.photo-package__button-01::before {
+  content: url(./img/arrow-1.jpg);
+  align-items: center;
+  margin-right: 10px;
+  position: relative;
+  bottom: 1px;
+}
+
+.photo-package__button-01::after {
+  content: url(./img/arrow-1.jpg);
+  margin-left: 10px;
+  position: relative;
+  bottom: 1px;
+}
+
+.photo-package__line {
+  width: 100%;
+  height: 1px;
+  background-color: #c7c7c7;
+  margin-top: 27px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ============================================================================================================ */
+
+.organization__title-1 {
+  margin-top: 37px;
+  margin-bottom: 15px;
+}
+
+.organization__text-1 {
+  font-size: 18px;
+  color: #37373f;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.organization__text-info-1 {
+  color: #37373f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 151.156%;
+}
+
+.organization__button-01 {
+  color: #5286ec;
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-top: 5px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 5px;
+  margin-left: -5px;
+}
+
+.organization__title-2 {
+  margin-top: 37px;
+  margin-bottom: 15px;
+}
+
+.organization__text-2 {
+  font-size: 18px;
+  color: #37373f;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-top: 23px;
+}
+
+.organization__text-info-2 {
+  color: #37373f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 151.156%;
+}
+
+.organization__text-3 {
+  color: #37373f;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+.organization__left {
+  display: flex;
+}
+
+.organization__button-01::after {
+  content: url(./img/arrow-1.jpg);
+  margin-left: 10px;
+  position: relative;
+  bottom: 1px;
+}
+
+.organization__profil-01 {
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 68px;
+}
+
+.organization__button-2 {
+  color: #5286ec;
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-top: 5px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 5px;
+  line-height: 151.156%;
+}
+
+.organization__img-heard {
+  width: 31px;
+  height: 27px;
+  align-items: end;
+}
+
+.organization__images {
+  display: flex;
+  justify-content: end;
+  margin-right: -47px;
+  margin-top: -40px;
+  position: relative;
+  top: 15px;
+}
+
+.photoshoot__grade-color-2 {
+  font-weight: bolder;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: Montserrat;
+}
+
+.photo-package__line-2 {
+  height: 1px;
+  width: 101%;
+  background-color: #c7c7c7;
+  margin-top: 27px;
+}
+
+.organization__body {
+  display: flex;
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 50px;
+}
+
+/* ============================================================================================================ */
+
+.price {
+  margin-top: 50px;
+}
+
+.price__title-text-1 {
+  color: #37373F;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 146.28%;
+  margin-bottom: 30px;
+}
+
+.price__menu {
+  border: 1px solid #C7C7C7;
+  width: 770px;
+  height: 458px;
+  border-radius: 2px;
+}
+
+.price__date-text-01 {
+  color: #37373F;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.price__date-text-01 {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-bottom: 18px;
+  border-bottom: 0.5px solid #C7C7C7;
+}
+
+.price__number-bold {
+  color: #37373F;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 146.28%;
+}
+
+.price__date-img-01 {
+  margin-left: 15px;
+  margin-bottom: -10px;
+}
+
+.prices {
+  font-family: Montserrat;
+  line-height: 26px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #c7c7c7;
+}
+
+.price__text-01 {
+  margin-bottom: 10px;
+}
+
+.price__text-02 {
+  font-weight: bold;
+}
+
+.price__text-03 {
+  margin-top: 10px;
+}
+
+.prices__button {
+  color: #FC9B09;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff;
+  border: 2px solid #FC9B09;
+  padding: 16px 33px;
+  border-radius: 3px;
+  margin-right: 30px;
+}
+
+.prices-2 {
+  font-family: Montserrat;
+  line-height: 26px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+/* ============================================================================================================ */
+
