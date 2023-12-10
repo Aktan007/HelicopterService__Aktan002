@@ -1,6 +1,7 @@
-body * {
+ * {
   text-decoration: none;
   margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -410,3 +411,76 @@ body * {
 
 /* ============================================================================================================ */
 
+.link {
+  margin-top: 47px;
+}
+
+.link__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.link__img-01 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.link__left {
+  display: flex;
+  align-items: center;
+}
+
+.link__lang {
+  color: #37373F;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+.link__img-02 {
+  margin-left: 5px;
+}
+
+/* ============================================================================================================ */
+
+footer {
+  background-color: #FAF9F8;
+  height: 77px;
+}
+
+.footer__body {
+  display: flex;
+  margin-left: 30px;
+}
+
+.footer__icons {
+  padding-top: 13px;
+}
+
+.footer__icon {
+  margin-left: 20px;
+}
+
+.footer__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #B3B3B3;
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-left: 275px;
+  padding-top: 4px;
+}
+
+.footer__text-01 {
+  margin-bottom: 7px;
+}
+
+/* ============================================================================================================ */
+/*                                                    !THE END!                                                 */
